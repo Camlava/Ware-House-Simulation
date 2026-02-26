@@ -1,6 +1,6 @@
 import time
-from entities import Order, Robot
-from metrics import Metrics
+from src.entities import Order, Robot
+from src.metrics import Metrics
 
 def run_simulation():
     metrics = Metrics()
