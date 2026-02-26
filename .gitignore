@@ -17,3 +17,17 @@
 # Backup files
 *~
 
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Data outputs
+data/*.csv
