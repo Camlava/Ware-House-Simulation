@@ -1,14 +1,35 @@
-# Warehouse Simulation
+# Warehouse Operations Simulation
 
-## Project Overview
-This project simulates warehouse operations with robots, orders, and inventory management. Includes UML class and sequence diagrams.
+## Project Status
+This project implements a discrete-event simulation of warehouse operations
+focused on order processing, inventory management, and robot routing.
 
-## Project Structure
-- `main.tex` : main LaTeX document
-- `images/` : folder containing UML diagrams
-- `README.md` : this file
-- `.gitignore` : Git ignore rules for LaTeX
+### Implemented
+- Core discrete-event simulation loop
+- (Q, R) inventory management model
+- Shortest-path robot routing using Dijkstra’s algorithm
+- Entity classes for orders, robots, and inventory
+- Initial performance metrics (order fulfillment time)
 
-## Instructions
-- Compile `main.tex` with LaTeX (pdflatex, xelatex, or lualatex) to produce the PDF.
+### In Progress
+- Multi-robot coordination
+- Congestion modeling
+- Expanded data visualization
 
+### Changes from Original Proposal
+The simulation focuses exclusively on robotic automation and excludes
+human labor variability to reduce model complexity.
+
+---
+
+## Installation Instructions
+
+### Requirements
+- Python 3.9+
+- pip
+
+### Setup
+```bash
+git clone https://github.com/yourusername/warehouse-simulation
+cd warehouse-simulation
+pip install -r requirements.txt
